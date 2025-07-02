@@ -16,7 +16,10 @@ const ProductPage = () => {
   }, [id]);
   return (
     <div className="flex flex-col w-full pt-10 pl-10">
-      <Link className="bg-black text-white rounded px-4 py-2 w-fit" to={"/"}>
+      <Link
+        className="bg-black text-white rounded px-4 py-2 w-fit"
+        to={"/Ecomm"}
+      >
         Back
       </Link>
       <div className="w-[60%]">
