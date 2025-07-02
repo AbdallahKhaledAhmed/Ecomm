@@ -9,7 +9,7 @@ const App = () => {
       <div className="flex w-full min-h-[100vh]">
         <FilterSidebar />
         <Routes>
-          <Route path="/" element={<Products />} />
+          <Route path="/Ecomm" element={<Products />} />
           <Route path="/product/:id" element={<ProductPage />} />
         </Routes>
         <Sidebar />
